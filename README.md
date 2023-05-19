@@ -1,5 +1,5 @@
 # Spark Connect
-Esse projeto tem como intuito demonstrar a utilização do [Spark Connect](https://spark.apache.org/docs/latest/spark-connect-overview.html) intrudizido na versão 3.4 do Spark, que possibilita que o Spark e seu ecossistema utilizados de qualquer lugar conectando aplicações, IDEs e Notebooks.
+Esse projeto tem como intuito demonstrar a utilização do [Spark Connect](https://spark.apache.org/docs/latest/spark-connect-overview.html) intrudizido na versão 3.4 do Spark, que possibilita conectar aplicações, IDEs e Notebooks a um cluster remoto utilizando Protobuf e gRPC.
 
 
 ## Arquitetura do Spark Connect
