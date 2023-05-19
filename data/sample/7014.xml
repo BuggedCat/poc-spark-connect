@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DadosEconomicoFinanceiros xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<DadosGerais>
+		<NomeFundo>FUNDO DE INVESTIMENTO IMOBILIARIO INDUSTRIAL DO BRASIL</NomeFundo>
+		<CNPJFundo>14217108000145</CNPJFundo>
+		<NomeAdministrador>COINVALORES C.C.V.M. LTDA</NomeAdministrador>
+		<CNPJAdministrador>00336036000140</CNPJAdministrador>
+		<ResponsavelInformacao>RUBENS DOS REIS ANDRADE</ResponsavelInformacao>
+		<TelefoneContato>(11)3035-4143</TelefoneContato>
+		<CodISINCota>BRFIIBCTF001</CodISINCota>
+		<CodNegociacaoCota>FIIB11</CodNegociacaoCota>
+	</DadosGerais>
+	<InformeRendimentos>
+		<Rendimento>
+			<AtoSocietarioAprovacao>Não é o caso</AtoSocietarioAprovacao>
+			<DataAprovacao>2016-11-30</DataAprovacao>
+			<DataBase>2016-12-01</DataBase>
+			<DataPagamento>2016-12-12</DataPagamento>
+			<ValorProventoCota>2.55</ValorProventoCota>
+			<PeriodoReferencia>Outubro</PeriodoReferencia>
+			<Ano>2016</Ano>
+			<RendimentoIsentoIR>true</RendimentoIsentoIR>
+		</Rendimento>
+		<Amortizacao tipo=""/>
+	</InformeRendimentos>
+</DadosEconomicoFinanceiros>

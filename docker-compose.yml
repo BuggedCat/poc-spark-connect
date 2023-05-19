@@ -1,0 +1,53 @@
+version: '3.8'
+
+services:
+  common_settings: &common-settings
+    build:
+      context: spark
+      dockerfile: Dockerfile
+    environment:
+      - MASTER=spark://master:7077
+    volumes:
+      - ./data:/opt/spark/data/
+
+  master:
+    <<: *common-settings
+    entrypoint: ["/bin/bash", "-c", "/opt/spark/entrypoint.sh"]
+    ports:
+      - "4040:4040"
+      - "8080:8080"
+      - "7077:7077"
+      - "15002:15002"
+    container_name: spark-master
+
+  worker1:
+    <<: *common-settings
+    command: /opt/spark/sbin/start-worker.sh spark://master:7077 --cores 3 --memory 8g
+    depends_on:
+      - master
+    ports:
+      - "18081:8081"
+
+  worker2:
+    <<: *common-settings
+    command: /opt/spark/sbin/start-worker.sh spark://master:7077 --cores 3 --memory 8g
+    depends_on:
+      - master
+    ports:
+      - "18082:8081"
+
+  worker3:
+    <<: *common-settings
+    command: /opt/spark/sbin/start-worker.sh spark://master:7077 --cores 3 --memory 8g
+    depends_on:
+      - master
+    ports:
+      - "18083:8081"
+
+  worker4:
+    <<: *common-settings
+    command: /opt/spark/sbin/start-worker.sh spark://master:7077 --cores 3 --memory 8g
+    depends_on:
+      - master
+    ports:
+      - "18084:8081"

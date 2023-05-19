@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DadosEconomicoFinanceiros xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<DadosGerais>
+		<NomeFundo>FUNDO DE INVESTIMENTO IMOBILIÁRIO POLO SHOPPING INDAIATUBA</NomeFundo>
+		<CNPJFundo>14721889000100</CNPJFundo>
+		<NomeAdministrador>VOTORANTIM ASSET MANAGEMENT DTVM LTDA.</NomeAdministrador>
+		<CNPJAdministrador>03384738000198</CNPJAdministrador>
+		<ResponsavelInformacao>Reinaldo Holanda de Lacerda</ResponsavelInformacao>
+		<TelefoneContato>(11) 5171-5359</TelefoneContato>
+		<CodISINCota>BRVPSICTF007</CodISINCota>
+		<CodNegociacaoCota>VPSI</CodNegociacaoCota>
+	</DadosGerais>
+	<InformeRendimentos>
+		<Rendimento>
+			<DataBase>2016-12-02</DataBase>
+			<DataPagamento>2016-12-12</DataPagamento>
+			<ValorProventoCota>0.0826214</ValorProventoCota>
+			<PeriodoReferencia>Novembro</PeriodoReferencia>
+			<Ano>2016</Ano>
+			<RendimentoIsentoIR>true</RendimentoIsentoIR>
+		</Rendimento>
+		<Amortizacao tipo=""/>
+	</InformeRendimentos>
+</DadosEconomicoFinanceiros>

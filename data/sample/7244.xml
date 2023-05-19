@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DadosEconomicoFinanceiros xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<DadosGerais>
+		<NomeFundo>FII Edificio Castelo</NomeFundo>
+		<CNPJFundo>10.993.386/0001-33</CNPJFundo>
+		<NomeAdministrador>BTG Pactual Serviços Financeiros S.A. DTVM</NomeAdministrador>
+		<CNPJAdministrador>59.281.253/0001-23</CNPJAdministrador>
+		<ResponsavelInformacao>Relação com Investidor</ResponsavelInformacao>
+		<TelefoneContato>(11) 3383-3441</TelefoneContato>
+		<CodISINCota>BRFCASCTF005</CodISINCota>
+		<CodNegociacaoCota>FCAS11</CodNegociacaoCota>
+	</DadosGerais>
+	<InformeRendimentos>
+		<Rendimento>
+			<DataAprovacao>2016-12-13</DataAprovacao>
+			<DataBase>2016-12-13</DataBase>
+			<DataPagamento>2016-12-20</DataPagamento>
+			<ValorProventoCota>1.61608243</ValorProventoCota>
+			<PeriodoReferencia>Novembro/2016</PeriodoReferencia>
+			<Ano>2016</Ano>
+			<RendimentoIsentoIR>true</RendimentoIsentoIR>
+		</Rendimento>
+		<Amortizacao tipo=""/>
+	</InformeRendimentos>
+</DadosEconomicoFinanceiros>

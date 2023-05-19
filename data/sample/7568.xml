@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DadosEconomicoFinanceiros xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<DadosGerais>
+		<NomeFundo>FII Campus Faria Lima</NomeFundo>
+		<CNPJFundo>11602654000101</CNPJFundo>
+		<NomeAdministrador>BTG Pactual Serviços Financeiros S.A. DTVM</NomeAdministrador>
+		<CNPJAdministrador>59281253000123</CNPJAdministrador>
+		<ResponsavelInformacao>Diogo Baptista</ResponsavelInformacao>
+		<TelefoneContato>(11) 3383-3441</TelefoneContato>
+		<CodISINCota>BRFCFLCTF009</CodISINCota>
+		<CodNegociacaoCota>FCFL11B</CodNegociacaoCota>
+	</DadosGerais>
+	<InformeRendimentos>
+		<Rendimento>
+			<DataAprovacao>2016-12-16</DataAprovacao>
+			<DataBase>2016-12-16</DataBase>
+			<DataPagamento>2016-12-23</DataPagamento>
+			<ValorProventoCota>10.6859060479042</ValorProventoCota>
+			<PeriodoReferencia>Novembro/2016</PeriodoReferencia>
+			<Ano>2016</Ano>
+			<RendimentoIsentoIR>true</RendimentoIsentoIR>
+		</Rendimento>
+		<Amortizacao tipo=""/>
+	</InformeRendimentos>
+</DadosEconomicoFinanceiros>

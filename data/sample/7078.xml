@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DadosEconomicoFinanceiros xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<DadosGerais>
+		<NomeFundo>FII MAX RETAIL</NomeFundo>
+		<CNPJFundo>11.274.415/0001-70</CNPJFundo>
+		<NomeAdministrador>BTG Pactual Serviços Financeiros S.A. DTVM</NomeAdministrador>
+		<CNPJAdministrador>59.281.253/0001-23</CNPJAdministrador>
+		<ResponsavelInformacao>Relação com Investidor</ResponsavelInformacao>
+		<TelefoneContato>(11) 3383-3441</TelefoneContato>
+		<CodISINCota>BRMAXRCTF009</CodISINCota>
+		<CodNegociacaoCota>MAXR11B</CodNegociacaoCota>
+	</DadosGerais>
+	<InformeRendimentos>
+		<Rendimento>
+			<DataAprovacao>2016-12-07</DataAprovacao>
+			<DataBase>2016-12-07</DataBase>
+			<DataPagamento>2016-12-14</DataPagamento>
+			<ValorProventoCota>6.712812896</ValorProventoCota>
+			<PeriodoReferencia>Outubro/2016</PeriodoReferencia>
+			<Ano>2016</Ano>
+			<RendimentoIsentoIR>true</RendimentoIsentoIR>
+		</Rendimento>
+		<Amortizacao tipo=""/>
+	</InformeRendimentos>
+</DadosEconomicoFinanceiros>

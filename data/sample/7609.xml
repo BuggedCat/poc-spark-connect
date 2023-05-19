@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DadosEconomicoFinanceiros xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<DadosGerais>
+		<NomeFundo>FUNDO DE INVESTIMENTO IMOBILIÁRIO VIA PARQUE SHOPPING FII</NomeFundo>
+		<CNPJFundo>00.332.266/0001-31</CNPJFundo>
+		<NomeAdministrador>Rio Bravo Investimentos DTVM Ltda</NomeAdministrador>
+		<CNPJAdministrador>72600026000181</CNPJAdministrador>
+		<ResponsavelInformacao>Everton Carajeleascow</ResponsavelInformacao>
+		<TelefoneContato>(11) 3509-6600</TelefoneContato>
+		<CodISINCota>BRFVPQCTF015</CodISINCota>
+		<CodNegociacaoCota>FVPQ11</CodNegociacaoCota>
+	</DadosGerais>
+	<InformeRendimentos>
+		<Rendimento>
+			<DataBase>2016-12-20</DataBase>
+			<DataPagamento>2016-12-29</DataPagamento>
+			<ValorProventoCota>1.93468653</ValorProventoCota>
+			<PeriodoReferencia>dezembro/2016</PeriodoReferencia>
+			<Ano>2016</Ano>
+			<RendimentoIsentoIR>false</RendimentoIsentoIR>
+		</Rendimento>
+		<Amortizacao tipo=""/>
+	</InformeRendimentos>
+</DadosEconomicoFinanceiros>

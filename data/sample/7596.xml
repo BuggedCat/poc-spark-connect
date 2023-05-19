@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DadosEconomicoFinanceiros xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<DadosGerais>
+		<NomeFundo>FII GWI RENDA IMOBILIÁRIA</NomeFundo>
+		<CNPJFundo>14.733.211/0001-48</CNPJFundo>
+		<NomeAdministrador>BR-CAPITAL DTVM S.A.</NomeAdministrador>
+		<CNPJAdministrador>44.077.014/0001-89</CNPJAdministrador>
+		<ResponsavelInformacao>LUIZ LINARES CAMBERO</ResponsavelInformacao>
+		<TelefoneContato>(11) 5508-3504</TelefoneContato>
+		<CodISINCota>BRGWIRCTF022</CodISINCota>
+		<CodNegociacaoCota>GWIR11</CodNegociacaoCota>
+	</DadosGerais>
+	<InformeRendimentos>
+		<Rendimento>
+			<DataBase>2016-12-20</DataBase>
+			<DataPagamento>2016-12-28</DataPagamento>
+			<ValorProventoCota>1.34</ValorProventoCota>
+			<PeriodoReferencia>17/11/2016 À 15/12/2016</PeriodoReferencia>
+			<Ano>2016</Ano>
+			<RendimentoIsentoIR>true</RendimentoIsentoIR>
+		</Rendimento>
+		<Amortizacao tipo=""/>
+	</InformeRendimentos>
+</DadosEconomicoFinanceiros>

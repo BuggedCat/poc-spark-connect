@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DadosEconomicoFinanceiros xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<DadosGerais>
+		<NomeFundo>FI IMOBILIARIO RIO BRAVO RENDA CORPORATIVA</NomeFundo>
+		<CNPJFundo>03683056000186</CNPJFundo>
+		<NomeAdministrador>Rio Bravo Investimentos DTVM</NomeAdministrador>
+		<CNPJAdministrador>72.600.026/0001-81</CNPJAdministrador>
+		<ResponsavelInformacao>Alexandre Rodrigues</ResponsavelInformacao>
+		<TelefoneContato>(11) 3505-6651</TelefoneContato>
+		<CodISINCota>BRFFCICTF005</CodISINCota>
+		<CodNegociacaoCota>FFCI11</CodNegociacaoCota>
+	</DadosGerais>
+	<InformeRendimentos>
+		<Rendimento>
+			<DataAprovacao>2016-12-07</DataAprovacao>
+			<DataBase>2016-12-07</DataBase>
+			<DataPagamento>2016-12-15</DataPagamento>
+			<ValorProventoCota>0.0117</ValorProventoCota>
+			<PeriodoReferencia>Novembro/2016</PeriodoReferencia>
+			<Ano>2016</Ano>
+			<RendimentoIsentoIR>true</RendimentoIsentoIR>
+		</Rendimento>
+		<Amortizacao tipo=""/>
+	</InformeRendimentos>
+</DadosEconomicoFinanceiros>

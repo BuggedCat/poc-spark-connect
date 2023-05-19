@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DadosEconomicoFinanceiros xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<DadosGerais>
+		<NomeFundo>FII TB Office</NomeFundo>
+		<CNPJFundo>17365105000147</CNPJFundo>
+		<NomeAdministrador>BTG Pactual Serviços Financeiros S.A. DTVM</NomeAdministrador>
+		<CNPJAdministrador>59281253000123</CNPJAdministrador>
+		<ResponsavelInformacao>Marcelo Matos</ResponsavelInformacao>
+		<TelefoneContato>(11) 3383-3441</TelefoneContato>
+		<CodISINCota>BRTBOFCTF006</CodISINCota>
+		<CodNegociacaoCota>TBOF11</CodNegociacaoCota>
+	</DadosGerais>
+	<InformeRendimentos>
+		<Rendimento>
+			<DataAprovacao>2016-12-19</DataAprovacao>
+			<DataBase>2016-12-19</DataBase>
+			<DataPagamento>2016-12-29</DataPagamento>
+			<ValorProventoCota>0.211443855721393</ValorProventoCota>
+			<PeriodoReferencia>Novembro/2016</PeriodoReferencia>
+			<Ano>2016</Ano>
+			<RendimentoIsentoIR>true</RendimentoIsentoIR>
+		</Rendimento>
+		<Amortizacao tipo=""/>
+	</InformeRendimentos>
+</DadosEconomicoFinanceiros>

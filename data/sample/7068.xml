@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DadosEconomicoFinanceiros xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<DadosGerais>
+		<NomeFundo>FII NCH RECEBÍVEIS IMOBILIÁRIOS</NomeFundo>
+		<CNPJFundo>18085673000157</CNPJFundo>
+		<NomeAdministrador>BTG PACTUAL SERVIÇOS FINANCEIROS S.A. DTVM</NomeAdministrador>
+		<CNPJAdministrador>59281253000123</CNPJAdministrador>
+		<ResponsavelInformacao>Relação com Investidor</ResponsavelInformacao>
+		<TelefoneContato>3383 - 3441</TelefoneContato>
+		<CodISINCota>BRNCHBCTF000</CodISINCota>
+		<CodNegociacaoCota>NCHB11B</CodNegociacaoCota>
+	</DadosGerais>
+	<InformeRendimentos>
+		<Rendimento>
+			<DataAprovacao>2016-12-07</DataAprovacao>
+			<DataBase>2016-12-07</DataBase>
+			<DataPagamento>2016-12-14</DataPagamento>
+			<ValorProventoCota>3.07447463414635</ValorProventoCota>
+			<PeriodoReferencia>NOVEMBRO/2016</PeriodoReferencia>
+			<Ano>2016</Ano>
+			<RendimentoIsentoIR>true</RendimentoIsentoIR>
+		</Rendimento>
+		<Amortizacao tipo=""/>
+	</InformeRendimentos>
+</DadosEconomicoFinanceiros>

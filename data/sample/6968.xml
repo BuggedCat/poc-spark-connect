@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DadosEconomicoFinanceiros xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<DadosGerais>
+		<NomeFundo>FUNDO DE INVESTIMENTO IMOBILIÁRIO PROJETO ÁGUA BRANCA</NomeFundo>
+		<CNPJFundo>03251720000118</CNPJFundo>
+		<NomeAdministrador>COIN DTVM LTDA</NomeAdministrador>
+		<CNPJAdministrador>61384004000105</CNPJAdministrador>
+		<ResponsavelInformacao>RUBENS DOS REIS ANDRADE</ResponsavelInformacao>
+		<TelefoneContato>(11)3035-4143</TelefoneContato>
+		<CodISINCota>BRFPABCTF011</CodISINCota>
+		<CodNegociacaoCota>FPAB11</CodNegociacaoCota>
+	</DadosGerais>
+	<InformeRendimentos>
+		<Rendimento>
+			<AtoSocietarioAprovacao>Não é o caso</AtoSocietarioAprovacao>
+			<DataAprovacao>2016-11-30</DataAprovacao>
+			<DataBase>2016-11-30</DataBase>
+			<DataPagamento>2016-12-14</DataPagamento>
+			<ValorProventoCota>1.75</ValorProventoCota>
+			<PeriodoReferencia>Outubro</PeriodoReferencia>
+			<Ano>2016</Ano>
+			<RendimentoIsentoIR>true</RendimentoIsentoIR>
+		</Rendimento>
+		<Amortizacao tipo=""/>
+	</InformeRendimentos>
+</DadosEconomicoFinanceiros>

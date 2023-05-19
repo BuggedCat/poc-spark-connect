@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DadosEconomicoFinanceiros xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<DadosGerais>
+		<NomeFundo>FUNDO DE INVESTIMENTO IMOBILIARIO MEMORIAL OFFICE</NomeFundo>
+		<CNPJFundo>01633741000172</CNPJFundo>
+		<NomeAdministrador>COIN DTVM LTDA</NomeAdministrador>
+		<CNPJAdministrador>61384004000105</CNPJAdministrador>
+		<ResponsavelInformacao>RUBENS DOS REIS ANDRADE</ResponsavelInformacao>
+		<TelefoneContato>(11)3035-4143</TelefoneContato>
+		<CodISINCota>BRFMOFCTF010</CodISINCota>
+		<CodNegociacaoCota>FMOF11</CodNegociacaoCota>
+	</DadosGerais>
+	<InformeRendimentos>
+		<Rendimento>
+			<AtoSocietarioAprovacao>Não é o caso</AtoSocietarioAprovacao>
+			<DataAprovacao>2016-11-30</DataAprovacao>
+			<DataBase>2016-11-30</DataBase>
+			<DataPagamento>2016-12-19</DataPagamento>
+			<ValorProventoCota>0.25</ValorProventoCota>
+			<PeriodoReferencia>Outubro</PeriodoReferencia>
+			<Ano>2016</Ano>
+			<RendimentoIsentoIR>true</RendimentoIsentoIR>
+		</Rendimento>
+		<Amortizacao tipo=""/>
+	</InformeRendimentos>
+</DadosEconomicoFinanceiros>

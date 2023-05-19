@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DadosEconomicoFinanceiros xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<DadosGerais>
+		<NomeFundo>FUNDO DE INVESTIMENTO IMOBILIARIO FII ELDORADO</NomeFundo>
+		<CNPJFundo>13.022.994/0001-99</CNPJFundo>
+		<NomeAdministrador>Rio Bravo Investimentos DTVM Ltda</NomeAdministrador>
+		<CNPJAdministrador>72600026000181</CNPJAdministrador>
+		<ResponsavelInformacao>Everton Carajeleascow</ResponsavelInformacao>
+		<TelefoneContato>(11) 3509-6600</TelefoneContato>
+		<CodISINCota>BRELDOCTF002</CodISINCota>
+		<CodNegociacaoCota>ELDO11B</CodNegociacaoCota>
+	</DadosGerais>
+	<InformeRendimentos>
+		<Rendimento>
+			<DataBase>2016-12-19</DataBase>
+			<DataPagamento>2016-12-27</DataPagamento>
+			<ValorProventoCota>2.0137506690849</ValorProventoCota>
+			<PeriodoReferencia>dezembro/2016</PeriodoReferencia>
+			<Ano>2016</Ano>
+			<RendimentoIsentoIR>true</RendimentoIsentoIR>
+		</Rendimento>
+		<Amortizacao tipo=""/>
+	</InformeRendimentos>
+</DadosEconomicoFinanceiros>

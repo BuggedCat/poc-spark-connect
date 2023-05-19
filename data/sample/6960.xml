@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DadosEconomicoFinanceiros xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<DadosGerais>
+		<NomeFundo>FUNDO DE INVESTIMENTO IMOBILIÁRIO EUROPAR</NomeFundo>
+		<CNPJFundo>05437916000127</CNPJFundo>
+		<NomeAdministrador>COINVALORES CCVM LTDA</NomeAdministrador>
+		<CNPJAdministrador>00336036000140</CNPJAdministrador>
+		<ResponsavelInformacao>RUBENS DOS REIS ANDRADE</ResponsavelInformacao>
+		<TelefoneContato>(11)3035-4143</TelefoneContato>
+		<CodISINCota>BREUROCTF011</CodISINCota>
+		<CodNegociacaoCota>EURO11</CodNegociacaoCota>
+	</DadosGerais>
+	<InformeRendimentos>
+		<Rendimento>
+			<AtoSocietarioAprovacao>Não é o caso</AtoSocietarioAprovacao>
+			<DataAprovacao>2016-11-30</DataAprovacao>
+			<DataBase>2016-11-30</DataBase>
+			<DataPagamento>2016-12-19</DataPagamento>
+			<ValorProventoCota>1.1</ValorProventoCota>
+			<PeriodoReferencia>Novembro</PeriodoReferencia>
+			<Ano>2016</Ano>
+			<RendimentoIsentoIR>true</RendimentoIsentoIR>
+		</Rendimento>
+		<Amortizacao tipo=""/>
+	</InformeRendimentos>
+</DadosEconomicoFinanceiros>
