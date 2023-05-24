@@ -38,6 +38,6 @@ df.repartition(4).write.parquet(
 json_schema = json.loads(SCHEMA_PATH.read_bytes())
 schema = StructType.fromJson(json_schema)
 
-df: DataFrame = spark.read.format("parquet").schema(schema).load(f"{SPARK_DIR}/rendimentos")
-df.show()
-df.printSchema()
+df_parquet: DataFrame = spark.read.format("parquet").schema(schema).load(f"{SPARK_DIR}/rendimentos")
+df_parquet.show()
+df_parquet.printSchema()
