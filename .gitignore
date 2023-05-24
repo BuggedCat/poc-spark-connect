@@ -160,6 +160,4 @@ cython_debug/
 #.idea/
 
 .vscode/
-src/data/
-data/rendimentos/
-data/**.json
+data/
