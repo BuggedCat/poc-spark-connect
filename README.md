@@ -1,7 +1,7 @@
 # Spark Connect
 *For english version [README](docs/README.en.md)* :sunglasses:
 
-Esse projeto tem como intuito demonstrar a utilização do [Spark Connect](https://spark.apache.org/docs/latest/spark-connect-overview.html) intrudizido na versão 3.4 do Spark, que possibilita que o Spark e seu ecossistema utilizados de qualquer lugar conectando aplicações, IDEs e Notebooks.
+Esse projeto tem como intuito demonstrar a utilização do [Spark Connect](https://spark.apache.org/docs/latest/spark-connect-overview.html) introduzido na versão 3.4 do Spark, que possibilita que o Spark e seu ecossistema utilizados de qualquer lugar conectando aplicações, IDEs e Notebooks.
 
 
 ## Arquitetura do Spark Connect
