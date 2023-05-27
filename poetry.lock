@@ -187,14 +187,14 @@ protobuf = ">=3.12.0"
 
 [[package]]
 name = "minio"
-version = "7.1.14"
+version = "7.1.15"
 description = "MinIO Python SDK for Amazon S3 Compatible Cloud Storage"
 category = "main"
 optional = false
 python-versions = "*"
 files = [
-    {file = "minio-7.1.14-py3-none-any.whl", hash = "sha256:ee5cbd4ba73f71b73555209f3411d5da3e9742bbe3fd038c362042d6d2527256"},
-    {file = "minio-7.1.14.tar.gz", hash = "sha256:230faf1d0db1c3ce09aef86b0eb38e994a64769e34dad4b77febf59bc90d8ab0"},
+    {file = "minio-7.1.15-py3-none-any.whl", hash = "sha256:1afdf01c1bc8b57ddd12d438e3e168d625465b56f4d1c2af7576744c688e84c6"},
+    {file = "minio-7.1.15.tar.gz", hash = "sha256:fcf8ac2cef310d5ddff2bef2c42f4e5a8bb546b87bca5bf8832135db054ca4e1"},
 ]
 
 [package.dependencies]
@@ -591,14 +591,14 @@ files = [
 
 [[package]]
 name = "typing-extensions"
-version = "4.5.0"
+version = "4.6.2"
 description = "Backported and Experimental Type Hints for Python 3.7+"
 category = "dev"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "typing_extensions-4.5.0-py3-none-any.whl", hash = "sha256:fb33085c39dd998ac16d1431ebc293a8b3eedd00fd4a32de0ff79002c19511b4"},
-    {file = "typing_extensions-4.5.0.tar.gz", hash = "sha256:5cb5f4a79139d699607b3ef622a1dedafa84e115ab0024e0d9c044a9479ca7cb"},
+    {file = "typing_extensions-4.6.2-py3-none-any.whl", hash = "sha256:3a8b36f13dd5fdc5d1b16fe317f5668545de77fa0b8e02006381fd49d731ab98"},
+    {file = "typing_extensions-4.6.2.tar.gz", hash = "sha256:06006244c70ac8ee83fa8282cb188f697b8db25bc8b4df07be1873c43897060c"},
 ]
 
 [[package]]
@@ -634,4 +634,4 @@ zstd = ["zstandard (>=0.18.0)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "0ef6a47e4da65ff6aa44393a0eb9913e3b50b8279c76d1a2d1499946117033e6"
+content-hash = "63d2f9bf0126dac265fded38cd21b06bcd96eea19e9ac6ffbd8281bc5920655d"

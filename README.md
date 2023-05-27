@@ -1,5 +1,7 @@
 # Spark Connect
-Esse projeto tem como intuito demonstrar a utilização do [Spark Connect](https://spark.apache.org/docs/latest/spark-connect-overview.html) intrudizido na versão 3.4 do Spark, que possibilita que o Spark e seu ecossistema utilizados de qualquer lugar conectando aplicações, IDEs e Notebooks.
+*For english version [README](docs/README.en.md)* :sunglasses:
+
+Esse projeto tem como intuito demonstrar a utilização do [Spark Connect](https://spark.apache.org/docs/latest/spark-connect-overview.html) introduzido na versão 3.4 do Spark, que possibilita que o Spark e seu ecossistema utilizados de qualquer lugar conectando aplicações, IDEs e Notebooks.
 
 
 ## Arquitetura do Spark Connect
@@ -8,7 +10,7 @@ Esse projeto tem como intuito demonstrar a utilização do [Spark Connect](https
 
 ### Funcionamento
 
-O client do Spark Connect traduz as operações feitas nos Dataframes em Query Plans que são codificados utilizando protocol buffers, que são enviados utilizando o framework gRPC.
+O client do Spark Connect traduz as operações feitas nos Dataframes em Query Plans que são codificados utilizando protocol buffers, que são enviados ao servidor utilizando o framework gRPC.[*](https://spark.apache.org/docs/latest/spark-connect-overview.html)
 
 ![Spark Connect Operations](docs/imgs/spark-connect-communication.png "Funcionamento do Spark Connect")
 
@@ -35,18 +37,13 @@ graph LR
 - [Poetry](https://python-poetry.org/docs/) 
 
 ## Instruções de uso
-### Iniciar o cluster Spark
+### Iniciar o cluster local Spark
 
 ```bash
 docker compose up --build
 ```
 
 ### Executando o codigo de exemplo
-
-- Na pasta do projeto
-```bash
-cd src
-```
 
 - Instalar as dependencias do projeto com o Poetry
 ```bash
@@ -60,5 +57,7 @@ poetry shell
 
 - Executar o script
 ```bash
-python fiis/read_sample.py
+python src/read_sample.py
 ```
+
+- Caso tudo funcione haverá uma nova pasta `rendimentos` e um novo arquivo `rendimentos-schema.json` dentro da pasta `data`.
