@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "spark"
+name = "poc-spark-connect"
 version = "0.1.0"
 description = ""
 authors = ["Giancarlo Lester <gatobugado.dev@gmail.com>"]
