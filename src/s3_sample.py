@@ -1,59 +1,25 @@
-import json
-from pathlib import Path
-
 from pyspark.sql import SparkSession
 from pyspark.sql.dataframe import DataFrame
-from pyspark.sql.types import StructType
+from settings import SPARK_DATA_DIR, DatalakeZones
 
-SPARK_DIR = "/opt/spark/data"
-MINIO_ENDPOINT = "http://localhost:9000"
-BUCKET_NAME = "rendimentos-landing"
-BUCKET_KEY = ""
 SPARK_CONNECT_ENDPOINT = "sc://localhost"
-LOCAL_DIR = "data"
-SCHEMA_PATH = Path(LOCAL_DIR) / "rendimentos-schema-full.json"
-
+SAMPLE_FILES_DIR = SPARK_DATA_DIR / "sample"
 
 spark: SparkSession = (
-    SparkSession.builder.appName("Spark Connect Test").remote(
-        SPARK_CONNECT_ENDPOINT
-    )  # type: ignore
-    # .config(
-    #     "spark.hadoop.fs.s3a.aws.credentials.provider",
-    #     "org.apache.hadoop.fs.s3a.EnvironmentVariableCredentialsProvider",
-    # )
-    # .config("spark.hadoop.fs.s3a.endpoint", MINIO_ENDPOINT)
-    # .config("spark.hadoop.fs.s3a.path.style.access", "true")
-    # .config("spark.hadoop.fs.s3a.connection.ssl.enabled", "false")
-    # .config("spark.hadoop.fs.s3a.impl", "org.apache.hadoop.fs.s3a.S3AFileSystem")
+    SparkSession.builder.appName("Spark Connect Test")  # type: ignore
+    .remote(SPARK_CONNECT_ENDPOINT)
     .getOrCreate()
 )
 
 df: DataFrame = (
     spark.read.format("com.databricks.spark.xml")
     .options(rowTag="DadosEconomicoFinanceiros")
-    .load("s3a://rendimentos-landing/teste/6960.xml")
-    # .load(f"{SPARK_DIR}/sample")
+    .load(SAMPLE_FILES_DIR.as_posix())
 )
 
 df.show()
 
-# df.write.parquet(path=f"s3a://{BUCKET_NAME}/teste")
-
-print("Oi")
-
-# # Salvar o Schema do Dataframe
-# schema_json = df.schema.json()
-# SCHEMA_PATH.parent.mkdir(parents=True, exist_ok=True)
-# SCHEMA_PATH.write_text(schema_json)
-
-
-# # Ler os dados em parquet
-# json_schema = json.loads(SCHEMA_PATH.read_bytes())
-# schema = StructType.fromJson(json_schema)
-
-# df_sample: DataFrame = (
-#     spark.read.format("parquet").schema(schema).load(f"s3a://{BUCKET_NAME}/rendimentos/")
-# )
-# df_sample.show()
-# df_sample.printSchema()
+df.repartition(4).write.parquet(
+    path=f"{DatalakeZones.BRONZE.to_s3_uri}/sample",
+    mode="overwrite",
+)

@@ -59,9 +59,11 @@ services:
     container_name: minio
     volumes:
       - data:/data
+    env_file:
+      - .env
     environment:
-      MINIO_ROOT_USER: minio
-      MINIO_ROOT_PASSWORD: p@ssw0rd
+      MINIO_ROOT_USER: ${AWS_ACCESS_KEY_ID}
+      MINIO_ROOT_PASSWORD: ${AWS_SECRET_ACCESS_KEY}
     command: minio server /data --console-address ":9090"
     ports:
       - "9000:9000"
